@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-principal {
+    display: block;
+    margin-left: 35%;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.cabeca {
+    background: linear-gradient(90deg, #de2100 0%, #ffbb00 100%);
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+.divisoes {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.divisoes label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.divisoes input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.divisoes i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+button {
+    background-color: rgb(228, 152, 13);
+    border: 2px solid rgb(228, 152, 13);
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);;
+}
+
+.divisoes.success input {
+    border-color: #2ecc71;
+}
+
+.divisoes.error input {
+    border-color: #e74c3c;
+}
+
+.divisoes.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.divisoes.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
