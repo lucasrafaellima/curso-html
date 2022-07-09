@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir Ocultar</title>
+    <script type="text/JavaScript" src="jQuery.js"></script>
+    <script type="text/JavaScript">
+
+        $(document).ready(function(){
+
+            $("h1").css("display", "none");
+
+            $("#exibi").click(function(){
+                $("h1").fadeIn();
+            });
+
+            $("#oculta").click(function(){
+                $("h1").fadeOut();
+            });
+
+            /*
+                tempo
+
+                1- default 0.4s
+                2- slow 0.6s
+                3- valor 3000 = 3s
+
+            */
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <button id="exibi">Mostra</button>
+    <button id="oculta">Oculta</button>
+
+    <br>
+
+    <h1>Testando Código</h1>
+</body>
+</html>

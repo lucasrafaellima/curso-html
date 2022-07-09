@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome de Classe</title>
+
+    <script>
+
+        function acao() {
+            for (var i =0; i <3; i++) {
+                var elemento = document.getElementsByClassName("texto")[i];
+
+                alert(elemento.innerHTML);
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <button onclick="acao()">clique aqui</button>
+    <h1 class="texto">html</h1>
+    <h2 class="texto">seletor</h2>
+    <h3 class="texto">opcao3</h3>
+</body>
+</html>

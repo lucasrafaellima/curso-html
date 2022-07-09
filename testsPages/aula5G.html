@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide</title>
+    <script type="text/JavaScript" src="jQuery.js"></script>
+    <script type="text/JavaScript">
+
+        $(document).ready(function(){
+
+            $(".ocultar").click(function(){
+                $(.mensagem).slideUp();
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <h1 class="exibir">exibir</h1>
+    <h1 class="ocultar">ocultar</h1>
+
+    <hr>
+
+    <h1 class="mensagem">olá</h1>
+    
+</body>
+</html>

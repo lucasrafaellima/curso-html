@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <script type="text/JavaScript" src="jQuery.js"></script>
+    <script type="text/JavaScript">
+        $(document).ready(function(e) {
+           alert("jQuery funcionando");
+           var campo = $("input").val();
+           var tit = $("#titulo").html();
+           var tit2 = $(".titulo2").html();
+           
+           alert(campo);
+           alert(tit);
+           alert(tit2);
+            $("#clicar").click(function(){
+
+                $("h3").html("voce clicou no botão");
+
+            });
+
+            $(#mostra).click(function(){
+                $("img").show();
+            });
+
+            $(#oculta).click(function(){
+                $("img").hide();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <input type="text" value="Campo nome">
+    <h1 id="titulo">titulo html</h1>
+    <h2 class="titulo2">segundo titulo</h2>
+    <h3></h3>
+    <button id="clicar">clique aqui</button>
+    <br>
+    <img src="star.jpg" width="100px">
+    <br>
+    <button id="mostra">Mostre</button>
+    <button id="oculta">Oculte</button>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar e ocultar</title>
+    <script type="text/JavaScript" src="jQuery.js"></script>
+    <script type="text/JavaScript">
+
+        $(document).ready(function(e){
+
+            $(#mostra).click(function(){
+                $("img").show();
+            });
+
+            $(#oculta).click(function(){
+                $("img").hide();
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    <img src="star.jpg" width="100px">
+    <br>
+    <button id="mostra">Mostre</button>
+    <button id="oculta">Oculte</button>
+</body>
+</html>
