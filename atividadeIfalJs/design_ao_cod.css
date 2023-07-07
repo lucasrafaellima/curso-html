@@ -71,3 +71,10 @@ h2 {
 .p1 {
     color: aliceblue;
 }
+
+footer {
+    padding: 20px;
+    background: rgb(21, 4, 98);
+    margin-top: 200px;
+    color: white;
+}
